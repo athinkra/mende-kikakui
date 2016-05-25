@@ -1,1 +1,3 @@
-# mende-kikakui
+# Mende kikakui script support
+
+
