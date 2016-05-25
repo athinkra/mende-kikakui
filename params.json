@@ -1,0 +1,6 @@
+{
+  "name": "Mende Kikakui",
+  "tagline": "Mende Kikakui Unicode font and input development ",
+  "body": "### Fonts\r\n\r\nThe Athinkra Mende Kikakui font is based on a PUA based font designed by Jay Glavy. The Glavy font has been adapted to Unicode and used with permission. The font will be released under the OFL 1.1 license. The Glavy font was based on the glyph repertoire documented in Darby 1966.\r\n\r\nThe new font will be adapted to include glyphs used in the Unicode charts and in Tuchscherer 1996 as well as Darby 1966 to create a comprehensive Mende Kikakui font.\r\n\r\n### Input\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
