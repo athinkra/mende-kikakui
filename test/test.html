@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Opentype test</title>
+
+<style>
+
+        @font-face {
+            font-family: "Kikakui Sans";
+            src: url("KikakuiSans.ot.ttf");
+          }
+
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: grey;
+            margin: 0;
+            padding: 0;
+        }
+
+        #fonttest {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            /* padding: 5px; */
+        }
+
+        h1, h2 {
+            text-align : center;
+        }
+        .kikakui, .sample, .note {
+            font-family: 'Kikakui Sans';
+        }
+
+        .kikakui, .sample {
+            font-size: 2.5em;
+        }
+
+        .sample {
+            letter-spacing: 0.5em;
+            background-color: silver;
+
+        }
+
+        /* U+1E800 - ki  */
+        .cv00 {
+            -webkit-font-feature-settings: "cv00" 1;
+            font-feature-settings: "cv00" 1;
+        }
+
+        /* U+1E801 - ka */
+        .cv01 {
+            -webkit-font-feature-settings: "cv01" 1;
+            font-feature-settings: "cv01" 1;
+        }
+
+        /* U+1E802 - ku */
+        .cv02 {
+            -webkit-font-feature-settings: "cv02" 1;
+            font-feature-settings: "cv02" 1;
+        }
+
+        /* U+1E803 - ke */
+        .cv03 {
+            -webkit-font-feature-settings: "cv03" 1;
+            font-feature-settings: "cv03" 1;
+        }
+
+        /* U+1E804 - kɛ */
+        .cv04 {
+            -webkit-font-feature-settings: "cv04" 1;
+            font-feature-settings: "cv04" 1;
+        }
+
+        /* U+1E805 - ko */
+        .cv05 {
+            -webkit-font-feature-settings: "cv05" 1;
+            font-feature-settings: "cv05" 1;
+        }
+
+        /* U+1E806 - kɔ */
+        .cv06 {
+            -webkit-font-feature-settings: "cv06" 1;
+            font-feature-settings: "cv06" 1;
+        }
+
+
+</style>
+</head>
+<body>
+<div id="fonttest">
+<h1>Mende Kikakui font test</h1>
+<h2>Syllabary key</h2>
+<p class="sample" dir="rtl">𞠀𞠁𞠂𞠃𞠄𞠅𞠆𞠇</p>
+
+
+<table>
+<thead>
+<tr>
+<th>Codepoint</th>
+<th>Phoneme</th>
+<th>Glyph</th>
+<th>Variant glyphs</th>
+<th>Notes</th>
+<th>Opentype feature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U+1E800</td>
+<td>ki</td>
+<td class="kikakui">𞠀</td>
+<td class="kikakui"><span class="cv00">𞠀</span></td>
+<td>Two versions of glyph in Dalby 1966.</td>
+<td><strong>cv00</strong> &ndash; 0 = <span class="note">𞠀</span>; 1 = <span class="note cv00">𞠀</span></td>
+</tr>
+<tr>
+<td>U+1E801</td>
+<td>ka</td>
+<td class="kikakui">𞠁</td>
+<td class="kikakui"><span class="cv01">𞠁</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>U+1E802</td>
+<td>ku</td>
+<td class="kikakui">𞠂</td>
+<td class="kikakui"><span class="cv02">𞠂</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>U+1E803</td>
+<td>ke</td>
+<td class="kikakui">𞠃</td>
+<td class="kikakui"><span class="cv03">𞠃</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>U+1E804</td>
+<td>kɛ</td>
+<td class="kikakui">𞠄</td>
+<td class="kikakui"><span class="cv04">𞠄</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>U+1E805</td>
+<td>ko</td>
+<td class="kikakui">𞠅</td>
+<td class="kikakui"><span class="cv05">𞠅</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>U+1E806</td>
+<td>kɔ</td>
+<td class="kikakui">𞠆</td>
+<td class="kikakui"><span class="cv05">𞠆</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>U+1E807</td>
+<td>kwa</td>
+<td class="kikakui">𞠇</td>
+<td class="kikakui">&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</body>
+</html>
