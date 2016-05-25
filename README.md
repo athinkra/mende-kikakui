@@ -1,3 +1,3 @@
-# Mende kikakui script support
+# Mende Kikakui Unicode support
 
 
