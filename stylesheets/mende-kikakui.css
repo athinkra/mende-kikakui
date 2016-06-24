@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Kikakui Sans";
+    src: url("../fonts/KikakuiSans.ot.ttf");
+}
+
+#buttons button, textarea#input {
+    font-family: "Kikakui Sans";
