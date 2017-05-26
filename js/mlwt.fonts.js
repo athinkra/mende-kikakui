@@ -232,7 +232,6 @@ function elBidiOverride(l) {
 
 function elBDO() {
     var isIeEdge = elIsIeEdge();
-    alert("isIeEdge = "+isIeEdge);
     var elDocLang = elDocumentLang();
     var elLangs = elGetContentLangs();
     if (isIeEdge) {
