@@ -181,6 +181,13 @@ Array.prototype.contains = function(obj) {
     return false;
 }
 
+function elIsIeEdge() {
+    if (/MSIE 9/i.test(navigator.userAgent) || /MSIE 10/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent) || /Edge\/\d./i.test(navigator.userAgent)) {
+        return true;
+    }
+    return false;
+}
+
 function elOpentypeSupport() {
     var els = document.querySelectorAll("[class]");
     var styleRules = [];
@@ -224,13 +231,16 @@ function elBidiOverride(l) {
 }
 
 function elBDOOverride() {
+    var isIeEdge = elIsIeEdge();
     var elDocLang = elDocumentLang();
     var elLangs = elGetContentLangs();
-    if ( elDocLang === "men-Mend" || "men-Mend-SL") {
-        elBidiOverride("men-Mend");
-    } else if (elLangs.includes('men-Mend')) {
-        elBidiOverride("men-Mend");
-    } else if (elLangs.includes('men-Mend-SL')) {
-        elBidiOverride("men-Mend");
+    if (isIeEdge) {
+        if ( elDocLang === "men-Mend" || "men-Mend-SL") {
+            elBidiOverride("men-Mend");
+        } else if (elLangs.includes('men-Mend')) {
+            elBidiOverride("men-Mend");
+        } else if (elLangs.includes('men-Mend-SL')) {
+            elBidiOverride("men-Mend");
+        }
     }
 }
