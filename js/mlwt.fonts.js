@@ -217,21 +217,20 @@ function elOpentypeSupport() {
     }
 }
 
-
-
-
-function elBidiOverrideMend() {
-    elStyle.sheet.insertRule( ":lang(men-Mend), :lang(men_mend-SL) {unicode-bidi: bidi-override;}",0);
+function elBidiOverride(l) {
+    if (l === "men-Mend" || "men-Mend-SL") {
+        elStyle.sheet.insertRule( ":lang(men-Mend), :lang(men_mend-SL) {unicode-bidi: bidi-override;}",0);
+    }
 }
 
-function(elBDOforMend) {
+function elBDOOverride() {
     var elDocLang = elDocumentLang();
     var elLangs = elGetContentLangs();
     if ( elDocLang === "men-Mend" || "men-Mend-SL") {
-        elBidiOverride();
+        elBidiOverride("men-Mend");
     } else if (elLangs.includes('men-Mend')) {
-        elBidiOverride();
+        elBidiOverride("men-Mend");
     } else if (elLangs.includes('men-Mend-SL')) {
-        elBidiOverride();
+        elBidiOverride("men-Mend");
     }
 }
