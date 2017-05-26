@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Opentype test</title>
+<link href="../stylesheets/test.css" type="text/css" rel="stylesheet">
+<style>
+    :lang(men) {background-color: cornsilk; }
+    :lang(men-Mend-SL) {color: darkseagreen;}
+    :lang(men-Mend) {
+        color: darkorchid;
+    }
+</style>
+</head>
+<body>
+<div id="fonttest">
+<h1>Mende Kikakui font test</h1>
+<p id="testMend" class="sample" lang="men-Mend-SL" dir="rtl">𞠀𞠁𞠂𞠃𞠄𞠅𞠆𞠇</p>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/jquery.mlwt.js"></script>
+<script src="../js/mlwt.fonts.js"></script>
+<script>
+    $( document ).ready( elBidiOverride() );
+</script>
+</body>
+</html>
