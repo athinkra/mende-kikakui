@@ -3,8 +3,8 @@ FontName: KikakuiSans
 FullName: Kikakui Sans
 FamilyName: Kikakui Sans
 Weight: Book
-Copyright: Copyright (c) 2016, Athinkra.\nOriginal font designed by Jay Glavy. Ported to Unicode and OpenType by \nEnabling Languages for Athinkra. Source font used with permission.
-Version: 0.2
+Copyright: Copyright (c) 2016, Athinkra.\nOriginal font designed by Jay Glavy. Ported to Unicode by Michael Everson  \nand OpenType support updated by Enabling Languages for Athinkra. \nSource fonts used with permission.
+Version: 0.3
 ItalicAngle: 0
 UnderlinePosition: -292
 UnderlineWidth: 40
@@ -17,12 +17,12 @@ Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
 XUID: [1021 984 -1507811681 11081177]
 StyleMap: 0x0040
-FSType: 4
+FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1044361044
-ModificationTime: 1466077494
+ModificationTime: 1496104492
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5

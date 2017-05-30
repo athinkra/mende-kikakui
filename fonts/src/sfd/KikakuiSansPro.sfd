@@ -4,7 +4,7 @@ FullName: Kikakui Sans Pro
 FamilyName: Kikakui Sans Pro
 Weight: Book
 Copyright: Copyright (c) 2016, Athinkra.\nOriginal font designed by Jay Glavy. Ported to Unicode and OpenType by \nEnabling Languages for Athinkra. Source font used iwth permission.
-Version: 0.2
+Version: 0.3
 ItalicAngle: 0
 UnderlinePosition: -292
 UnderlineWidth: 40
@@ -17,12 +17,12 @@ Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
 XUID: [1021 984 -1507811681 11081177]
 StyleMap: 0x0040
-FSType: 4
+FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1044361044
-ModificationTime: 1465445514
+ModificationTime: 1496105810
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000003.00000000.00000000.00000000
 Lookup: 4 1 1 "'rlig' Required Ligatures lookup 0" { "'rlig' Required Ligatures lookup 0-1"  } ['rlig' ('DFLT' <'dflt' > ) ]
 Lookup: 1 1 0 "'aalt' Access All Alternates lookup 7" { "'aalt' Access All Alternates lookup 7-1"  } ['aalt' ('DFLT' <'dflt' > ) ]
-Lookup: 1 1 0 "'ss02' Style Set 2 lookup 8" { "'ss02' Style Set 2 lookup 8-1"  } ['ss02' ('DFLT' <'dflt' > ) ]
+Lookup: 1 1 0 "'ss01' Style Set 1 lookup 8" { "'ss01' Style Set 1 lookup 8-1"  } ['ss01' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -77055,7 +77055,7 @@ SplineSet
  1103 1497 1103 1497 1103 1436 c 0,0,1
 EndSplineSet
 Validated: 1
-Substitution2: "'ss02' Style Set 2 lookup 8-1" u1E800.alt
+Substitution2: "'ss01' Style Set 1 lookup 8-1" u1E800.alt
 Substitution2: "'aalt' Access All Alternates lookup 7-1" u1E800.alt
 EndChar
 
@@ -77108,8 +77108,8 @@ SplineSet
  1103 1497 1103 1497 1103 1436 c 0,16,17
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Style Set 1 lookup 8-1" u1E801.alt
 Substitution2: "'aalt' Access All Alternates lookup 7-1" u1E801.alt
-Substitution2: "'ss02' Style Set 2 lookup 8-1" u1E801.alt
 EndChar
 
 StartChar: u1E802
@@ -77170,8 +77170,8 @@ SplineSet
  1103 1497 1103 1497 1103 1436 c 0,32,33
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Style Set 1 lookup 8-1" u1E802.alt
 Substitution2: "'aalt' Access All Alternates lookup 7-1" u1E802.alt
-Substitution2: "'ss02' Style Set 2 lookup 8-1" u1E802.alt
 EndChar
 
 StartChar: u1E803
