@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Kikakui Sans";
-    src: url("../test/KikakuiSans.ot.ttf");
+    src: url("../fonts/KikakuiSans.ot.ttf");
   }
 
 body {
@@ -35,44 +35,7 @@ h1, h2 {
 
 }
 
-/* U+1E800 - ki  */
-.cv00 {
-    -webkit-font-feature-settings: "cv00" 1;
-    font-feature-settings: "cv00" 1;
-}
-
-/* U+1E801 - ka */
-.cv01 {
-    -webkit-font-feature-settings: "cv01" 1;
-    font-feature-settings: "cv01" 1;
-}
-
-/* U+1E802 - ku */
-.cv02 {
-    -webkit-font-feature-settings: "cv02" 1;
-    font-feature-settings: "cv02" 1;
-}
-
-/* U+1E803 - ke */
-.cv03 {
-    -webkit-font-feature-settings: "cv03" 1;
-    font-feature-settings: "cv03" 1;
-}
-
-/* U+1E804 - kɛ */
-.cv04 {
-    -webkit-font-feature-settings: "cv04" 1;
-    font-feature-settings: "cv04" 1;
-}
-
-/* U+1E805 - ko */
-.cv05 {
-    -webkit-font-feature-settings: "cv05" 1;
-    font-feature-settings: "cv05" 1;
-}
-
-/* U+1E806 - kɔ */
-.cv06 {
-    -webkit-font-feature-settings: "cv06" 1;
-    font-feature-settings: "cv06" 1;
+/* U+1E800 - ki; U+1E801 - ka; U+1E802 - ku  */
+.ss01 {
+    font-feature-settings: "ss01" 1;
 }
