@@ -5,18 +5,19 @@
 <title>Opentype test</title>
 <link href="../stylesheets/test.css" type="text/css" rel="stylesheet">
 <style>
-
+    :lang(men) {background-color: cornsilk; }
+    :lang(men-Mend-SL) {color: darkseagreen;}
+    :lang(men-Mend) {
+        color: darkorchid;
+    }
 </style>
 </head>
 <body>
+<div id="fonttest">
+<h1>Mende Kikakui font test</h1>
+<p id="testMend" class="sample" lang="men-Mend-SL" dir="rtl">𞠀𞠁𞠂𞠃𞠄𞠅𞠆𞠇</p>
 
-<h1>Mende Kikakui digits</h1>
-<div dir="rtl">
-<p title="101" id="testMend-101" class="sample" lang="men-Mend">𞣇𞣒𞣇</p>
-<p title="206" id="testMend-206" class="sample" lang="men-Mend">𞣈𞣒𞣌</p>
-<p title="833" id="testMend-833" class="sample" lang="men-Mend">𞣎𞣒𞣉𞣑𞣉</p
 </div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../js/jquery.mlwt.js"></script>
 <script src="../js/mlwt.fonts.js"></script>
