@@ -39,46 +39,46 @@
 
         <h1>Mende Kikakui character picker</h1>
         <div id="panel">
-        <textarea lang="men-Mend" id="input" dir="auto" autofocus onkeyup="updateInputLength()" placeholder="Type your message here…"></textarea>
-        
+        <textarea lang="men-Mend" id="input" dir="rtl" autofocus onkeyup="updateInputLength()" placeholder="Type your message here…"></textarea>
+
         <fieldset style="display:none;">
             <button id="clear">Clear</button>
         <button id="tweet" onclick="document.location = 'https://twitter.com/?status='+ encodeURI(document.getElementById('input').value);">Tweet</button>
         </fieldset>
-        
-          <div id="inputControls" style="display:none;">        
+
+          <div id="inputControls" style="display:none;">
             <fieldset>
             <legend>Active keymap</legend>
             <select id="blockSelection" onchange="loadSelectedBlock(document.getElementById('blockSelection'));">
                 <option value=""></option>
             </select>
             </fieldset>
-            
+
             <fieldset>
                 <legend>Show as </legend>
-    
+
                 <input type="radio" name="style" value="table" checked="checked" onclick="changeListStyle('table')" id="label-table" />
                 <label for="label-table">Table</label>
-    
+
             <input type="radio" name="style" value="list" onclick="changeListStyle('list')" id="label-list"/>
             <label for="label-list">List</label>
             </fieldset>
-            
-            
+
+
             <fieldset style="display:none;">
                 <legend>Input length</legend>
             <span id="length"></span> <span id="value"></span>
             </fieldset>
-            
+
           </div>
         </div>
 
-        <div id="buttons">
-               <div class="big">Please select keymap above to start</div>
+        <div id="buttons" dir="rtl">
+               <!-- <div class="big">Please select keymap above to start</div> -->
         </div>
-        
 
-      
+
+
 
 
 
@@ -95,10 +95,10 @@
 
     </section>
 
-    <script> 
-      
+    <script>
+
       domReady(function() {
-        
+
         /*
          *  TODO
          *     - remove meet for length updates
@@ -110,13 +110,13 @@
          *     - how to handle delete or backspace?
          *
          */
-        
-        
-        
+
+
+
         singleInput = "0x1e800-mende_kikakui.json";
         start();
-        
-        
+
+
         function listType(ltype) {
             changeListStyle(ltype);
             if (ltype == 'table' && document.getElementById('label-table') !== null) {
@@ -124,17 +124,17 @@
             } else if (ltype == 'list' && document.getElementById('label-list') !== null) {
                 document.getElementById("label-list").checked=true;
             }
-            
+
         }
         listType('table');
-        
+
         /*
          * loadSelectedBlock('0xa6a0-bamum.json');
          * changeListStyle('table');
          *
          */
-        
-        
+
+
       });
 
     </script>

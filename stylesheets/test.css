@@ -2,7 +2,10 @@
     font-family: "Kikakui Sans";
     src: url("../fonts/KikakuiSans.ot.ttf");
   }
-
+  @font-face {
+      font-family: "Kikakui Sans Pro";
+      src: url("../fonts/KikakuiSansPro.ot.ttf");
+    }
 body {
     font-family: 'Noto Sans', sans-serif;
     background-color: grey;
