@@ -1,0 +1,497 @@
+store(composeKey) "/?"
+c store(final) "aeiouh~"
+store(upper) "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+store(lower) "abcdefghijklmnopqrstuvwxyz"
+
++ any(upper) > index(lower,1)
+"ki" + any(composeKey) > U+1E800
+"ka" + any(composeKey) > U+1E801
+"ku" + any(composeKey) > U+1E802
+"ke" + any(composeKey) > U+1E803
+"keh" + any(composeKey) > U+1E804
+"ko" + any(composeKey) > U+1E805
+"koh" + any(composeKey) > U+1E806
+"kua" + any(composeKey) > U+1E807
+"wi" + any(composeKey) > U+1E808
+"wa" + any(composeKey) > U+1E809
+"wu" + any(composeKey) > U+1E80A
+"we" + any(composeKey) > U+1E80B
+"weh" + any(composeKey) > U+1E80C
+"wo" + any(composeKey) > U+1E80D
+"woh" + any(composeKey) > U+1E80E
+"wui" + any(composeKey) > U+1E80F
+"wehi" + any(composeKey) > U+1E810
+"wvi" + any(composeKey) > U+1E811
+"wva" + any(composeKey) > U+1E812
+"wveh" + any(composeKey) > U+1E813
+"mi~" + any(composeKey) > U+1E814
+"mi`" + any(composeKey) > U+1E814
+"ma~" + any(composeKey) > U+1E815
+"ma`" + any(composeKey) > U+1E815
+"mu~" + any(composeKey) > U+1E816
+"mu~` + any(composeKey) > U+1E816
+"meh~" + any(composeKey) > U+1E817
+"meh`" + any(composeKey) > U+1E817
+"moh~" + any(composeKey) > U+1E818
+"moh`" + any(composeKey) > U+1E818
+"mua~" + any(composeKey) > U+1E819
+"mua`" + any(composeKey) > U+1E819
+"mueh~" + any(composeKey) > U+1E81A
+"mueh`" + any(composeKey) > U+1E81A
+"bi" + any(composeKey) > U+1E81B
+"ba" + any(composeKey) > U+1E81C
+"bu" + any(composeKey) > U+1E81D
+"be" + any(composeKey) > U+1E81E
+"beh" + any(composeKey) > U+1E81F
+"bo" + any(composeKey) > U+1E820
+"boh" + any(composeKey) > U+1E821
+"i" + any(composeKey) > U+1E822
+"a" + any(composeKey) > U+1E823
+"u" + any(composeKey) > U+1E824
+"e" + any(composeKey) > U+1E825
+"eh" + any(composeKey) > U+1E826
+"o" + any(composeKey) > U+1E827
+"oh" + any(composeKey) > U+1E828
+"ehi" + any(composeKey) > U+1E829
+"i~" + any(composeKey) > U+1E82A
+"i`" + any(composeKey) > U+1E82A
+"i~2" + any(composeKey) > U+1E82B
+"i`2" + any(composeKey) > U+1E82B
+"a~" + any(composeKey) > U+1E82C
+"a`" + any(composeKey) > U+1E82C
+"eh~" + any(composeKey) > U+1E82D
+"eh`" + any(composeKey) > U+1E82D
+"si" + any(composeKey) > U+1E82E
+"sa" + any(composeKey) > U+1E82F
+"su" + any(composeKey) > U+1E830
+"se" + any(composeKey) > U+1E831
+"seh" + any(composeKey) > U+1E832
+"so" + any(composeKey) > U+1E833
+"soh" + any(composeKey) > U+1E834
+"sia" + any(composeKey) > U+1E835
+"li" + any(composeKey) > U+1E836
+"la" + any(composeKey) > U+1E837
+"lu" + any(composeKey) > U+1E838
+"le" + any(composeKey) > U+1E839
+"leh" + any(composeKey) > U+1E83A
+"lo" + any(composeKey) > U+1E83B
+"loh" + any(composeKey) > U+1E83C
+"leeh" + any(composeKey) > U+1E83D
+"di" + any(composeKey) > U+1E83E
+"da" + any(composeKey) > U+1E83F
+"du" + any(composeKey) > U+1E840
+"de" + any(composeKey) > U+1E841
+"do" + any(composeKey) > U+1E842
+"doh" + any(composeKey) > U+1E843
+"ti" + any(composeKey) > U+1E844
+"ta" + any(composeKey) > U+1E845
+"tu" + any(composeKey) > U+1E846
+"te" + any(composeKey) > U+1E847
+"teh" + any(composeKey) > U+1E848
+"to" + any(composeKey) > U+1E849
+"toh" + any(composeKey) > U+1E84A
+"ji" + any(composeKey) > U+1E84B
+"ja" + any(composeKey) > U+1E84C
+"ju" + any(composeKey) > U+1E84D
+"je" + any(composeKey) > U+1E84E
+"jeh" + any(composeKey) > U+1E84F
+"jo" + any(composeKey) > U+1E850
+"joh" + any(composeKey) > U+1E851
+"jooh" + any(composeKey) > U+1E852
+"yi" + any(composeKey) > U+1E853
+"ya" + any(composeKey) > U+1E854
+"yu" + any(composeKey) > U+1E855
+"ye" + any(composeKey) > U+1E856
+"yeh" + any(composeKey) > U+1E857
+"yo" + any(composeKey) > U+1E858
+"yoh" + any(composeKey) > U+1E859
+"fi" + any(composeKey) > U+1E85A
+"fa" + any(composeKey) > U+1E85B
+"fu" + any(composeKey) > U+1E85C
+"fe" + any(composeKey) > U+1E85D
+"feh" + any(composeKey) > U+1E85E
+"fo" + any(composeKey) > U+1E85F
+"foh" + any(composeKey) > U+1E860
+"fua" + any(composeKey) > U+1E861
+"fa~" + any(composeKey) > U+1E862
+"fa`" + any(composeKey) > U+1E862
+"ni~" + any(composeKey) > U+1E863
+"ni`" + any(composeKey) > U+1E863
+"na~" + any(composeKey) > U+1E864
+"na`" + any(composeKey) > U+1E864
+"nu~" + any(composeKey) > U+1E865
+"nu`" + any(composeKey) > U+1E865
+"neh~" + any(composeKey) > U+1E866
+"neh`" + any(composeKey) > U+1E866
+"noh~" + any(composeKey) > U+1E867
+"noh`" + any(composeKey) > U+1E867
+"hi" + any(composeKey) > U+1E868
+"ha" + any(composeKey) > U+1E869
+"hu" + any(composeKey) > U+1E86A
+"he" + any(composeKey) > U+1E86B
+"heh" + any(composeKey) > U+1E86C
+"ho" + any(composeKey) > U+1E86D
+"hoh" + any(composeKey) > U+1E86E
+"hei" + any(composeKey) > U+1E86F
+"hou" + any(composeKey) > U+1E870
+"hi~" + any(composeKey) > U+1E871
+"hi`" + any(composeKey) > U+1E871
+"ha~" + any(composeKey) > U+1E872
+"ha`" + any(composeKey) > U+1E872
+"hu~" + any(composeKey) > U+1E873
+"hu`" + any(composeKey) > U+1E873
+"heh~" + any(composeKey) > U+1E874
+"heh`" + any(composeKey) > U+1E874
+"hoh~" + any(composeKey) > U+1E875
+"hoh`" + any(composeKey) > U+1E875
+"hua~" + any(composeKey) > U+1E876
+"hua`" + any(composeKey) > U+1E876
+"nggi" + any(composeKey) > U+1E877
+"ngga" + any(composeKey) > U+1E878
+"nggu" + any(composeKey) > U+1E879
+"ngge" + any(composeKey) > U+1E87A
+"nggeh" + any(composeKey) > U+1E87B
+"nggo" + any(composeKey) > U+1E87C
+"nggoh" + any(composeKey) > U+1E87D
+"nggaa" + any(composeKey) > U+1E87E
+"nggua" + any(composeKey) > U+1E87F
+"nggeeh" + any(composeKey) > U+1E880
+"nggoo" + any(composeKey) > U+1E881
+"nggooh" + any(composeKey) > U+1E882
+"gi" + any(composeKey) > U+1E883
+"ga" + any(composeKey) > U+1E884
+"gu" + any(composeKey) > U+1E885
+"ge" + any(composeKey) > U+1E886
+"guehi" + any(composeKey) > U+1E887
+"gua~" + any(composeKey) > U+1E888
+"gua`" + any(composeKey) > U+1E888
+"ngeh~" + any(composeKey) > U+1E889
+"ngeh`" + any(composeKey) > U+1E889
+"ngoh~" + any(composeKey) > U+1E88A
+"ngoh`" + any(composeKey) > U+1E88A
+"ngua~" + any(composeKey) > U+1E88B
+"ngua`" + any(composeKey) > U+1E88B
+"pi" + any(composeKey) > U+1E88C
+"pa" + any(composeKey) > U+1E88D
+"pu" + any(composeKey) > U+1E88E
+"pe" + any(composeKey) > U+1E88F
+"peh" + any(composeKey) > U+1E890
+"po" + any(composeKey) > U+1E891
+"poh" + any(composeKey) > U+1E892
+"mbi" + any(composeKey) > U+1E893
+"mba" + any(composeKey) > U+1E894
+"mbu" + any(composeKey) > U+1E895
+"mbe" + any(composeKey) > U+1E896
+"mbe2" + any(composeKey) > U+1E897
+"mbeh" + any(composeKey) > U+1E898
+"mbo" + any(composeKey) > U+1E899
+"mboh" + any(composeKey) > U+1E89A
+"mbuu" + any(composeKey) > U+1E89B
+"mbeeh" + any(composeKey) > U+1E89C
+"mboo" + any(composeKey) > U+1E89D
+"mbooh" + any(composeKey) > U+1E89E
+"kpi" + any(composeKey) > U+1E89F
+"kpa" + any(composeKey) > U+1E8A0
+"kpu" + any(composeKey) > U+1E8A1
+"kpe" + any(composeKey) > U+1E8A2
+"kpeh" + any(composeKey) > U+1E8A3
+"kpo" + any(composeKey) > U+1E8A4
+"kpoh" + any(composeKey) > U+1E8A5
+"gbi" + any(composeKey) > U+1E8A6
+"gba" + any(composeKey) > U+1E8A7
+"gbu" + any(composeKey) > U+1E8A8
+"gbe" + any(composeKey) > U+1E8A9
+"gbeh" + any(composeKey) > U+1E8AA
+"gbo" + any(composeKey) > U+1E8AB
+"gboh" + any(composeKey) > U+1E8AC
+"ra" + any(composeKey) > U+1E8AD
+"ndi" + any(composeKey) > U+1E8AE
+"nda" + any(composeKey) > U+1E8AF
+"ndu" + any(composeKey) > U+1E8B0
+"nde" + any(composeKey) > U+1E8B1
+"ndeh" + any(composeKey) > U+1E8B2
+"ndo" + any(composeKey) > U+1E8B3
+"ndoh" + any(composeKey) > U+1E8B4
+"nja" + any(composeKey) > U+1E8B5
+"nju" + any(composeKey) > U+1E8B6
+"nje" + any(composeKey) > U+1E8B7
+"njo" + any(composeKey) > U+1E8B8
+"vi" + any(composeKey) > U+1E8B9
+"va" + any(composeKey) > U+1E8BA
+"vu" + any(composeKey) > U+1E8BB
+"ve" + any(composeKey) > U+1E8BC
+"veh" + any(composeKey) > U+1E8BD
+"vo" + any(composeKey) > U+1E8BE
+"voh" + any(composeKey) > U+1E8BF
+"nyi~" + any(composeKey) > U+1E8C0
+"nyi`" + any(composeKey) > U+1E8C0
+"nya~" + any(composeKey) > U+1E8C1
+"nya`" + any(composeKey) > U+1E8C1
+"nyu~" + any(composeKey) > U+1E8C2
+"nyu`" + any(composeKey) > U+1E8C2
+"nyeh~" + any(composeKey) > U+1E8C3
+"nyeh`" + any(composeKey) > U+1E8C3
+"nyoh~" + any(composeKey) > U+1E8C4
+"nyoh`" + any(composeKey) > U+1E8C4
+"1" + any(composeKey) > U+1E8C7
+"2" + any(composeKey) > U+1E8C8
+"3" + any(composeKey) > U+1E8C9
+"4" + any(composeKey) > U+1E8CA
+"5" + any(composeKey) > U+1E8CB
+"6" + any(composeKey) > U+1E8CC
+"7" + any(composeKey) > U+1E8CD
+"8" + any(composeKey) > U+1E8CE
+"9" + any(composeKey) > U+1E8CF
+"!" + any(composeKey) > U+1E8D0
+"@" + any(composeKey) > U+1E8D1
+"#" + any(composeKey) > U+1E8D2
+"$" + any(composeKey) > U+1E8D3
+"%" + any(composeKey) > U+1E8D4
+"^" + any(composeKey) > U+1E8D5
+"&" + any(composeKey) > U+1E8D6
+
+"ki" + [K_SPACE] > U+1E800 U+0020
+"ka" + [K_SPACE] > U+1E801 U+0020
+"ku" + [K_SPACE] > U+1E802 U+0020
+"ke" + [K_SPACE] > U+1E803 U+0020
+"keh" + [K_SPACE] > U+1E804 U+0020
+"ko" + [K_SPACE] > U+1E805 U+0020
+"koh" + [K_SPACE] > U+1E806 U+0020
+"kua" + [K_SPACE] > U+1E807 U+0020
+"wi" + [K_SPACE] > U+1E808 U+0020
+"wa" + [K_SPACE] > U+1E809 U+0020
+"wu" + [K_SPACE] > U+1E80A U+0020
+"we" + [K_SPACE] > U+1E80B U+0020
+"weh" + [K_SPACE] > U+1E80C U+0020
+"wo" + [K_SPACE] > U+1E80D U+0020
+"woh" + [K_SPACE] > U+1E80E U+0020
+"wui" + [K_SPACE] > U+1E80F U+0020
+"wehi" + [K_SPACE] > U+1E810 U+0020
+"wvi" + [K_SPACE] > U+1E811 U+0020
+"wva" + [K_SPACE] > U+1E812 U+0020
+"wveh" + [K_SPACE] > U+1E813 U+0020
+"mi~" + [K_SPACE] > U+1E814 U+0020
+"mi`" + [K_SPACE] > U+1E814 U+0020
+"ma~" + [K_SPACE] > U+1E815 U+0020
+"ma`" + [K_SPACE] > U+1E815 U+0020
+"mu~" + [K_SPACE] > U+1E816 U+0020
+"mu~` + [K_SPACE] > U+1E816 U+0020
+"meh~" + [K_SPACE] > U+1E817 U+0020
+"meh`" + [K_SPACE] > U+1E817 U+0020
+"moh~" + [K_SPACE] > U+1E818 U+0020
+"moh`" + [K_SPACE] > U+1E818 U+0020
+"mua~" + [K_SPACE] > U+1E819 U+0020
+"mua`" + [K_SPACE] > U+1E819 U+0020
+"mueh~" + [K_SPACE] > U+1E81A U+0020
+"mueh`" + [K_SPACE] > U+1E81A U+0020
+"bi" + [K_SPACE] > U+1E81B U+0020
+"ba" + [K_SPACE] > U+1E81C U+0020
+"bu" + [K_SPACE] > U+1E81D U+0020
+"be" + [K_SPACE] > U+1E81E U+0020
+"beh" + [K_SPACE] > U+1E81F U+0020
+"bo" + [K_SPACE] > U+1E820 U+0020
+"boh" + [K_SPACE] > U+1E821 U+0020
+"i" + [K_SPACE] > U+1E822 U+0020
+"a" + [K_SPACE] > U+1E823 U+0020
+"u" + [K_SPACE] > U+1E824 U+0020
+"e" + [K_SPACE] > U+1E825 U+0020
+"eh" + [K_SPACE] > U+1E826 U+0020
+"o" + [K_SPACE] > U+1E827 U+0020
+"oh" + [K_SPACE] > U+1E828 U+0020
+"ehi" + [K_SPACE] > U+1E829 U+0020
+"i~" + [K_SPACE] > U+1E82A U+0020
+"i`" + [K_SPACE] > U+1E82A U+0020
+"i~2" + [K_SPACE] > U+1E82B U+0020
+"i`2" + [K_SPACE] > U+1E82B U+0020
+"a~" + [K_SPACE] > U+1E82C U+0020
+"a`" + [K_SPACE] > U+1E82C U+0020
+"eh~" + [K_SPACE] > U+1E82D U+0020
+"eh`" + [K_SPACE] > U+1E82D U+0020
+"si" + [K_SPACE] > U+1E82E U+0020
+"sa" + [K_SPACE] > U+1E82F U+0020
+"su" + [K_SPACE] > U+1E830 U+0020
+"se" + [K_SPACE] > U+1E831 U+0020
+"seh" + [K_SPACE] > U+1E832 U+0020
+"so" + [K_SPACE] > U+1E833 U+0020
+"soh" + [K_SPACE] > U+1E834 U+0020
+"sia" + [K_SPACE] > U+1E835 U+0020
+"li" + [K_SPACE] > U+1E836 U+0020
+"la" + [K_SPACE] > U+1E837 U+0020
+"lu" + [K_SPACE] > U+1E838 U+0020
+"le" + [K_SPACE] > U+1E839 U+0020
+"leh" + [K_SPACE] > U+1E83A U+0020
+"lo" + [K_SPACE] > U+1E83B U+0020
+"loh" + [K_SPACE] > U+1E83C U+0020
+"leeh" + [K_SPACE] > U+1E83D U+0020
+"di" + [K_SPACE] > U+1E83E U+0020
+"da" + [K_SPACE] > U+1E83F U+0020
+"du" + [K_SPACE] > U+1E840 U+0020
+"de" + [K_SPACE] > U+1E841 U+0020
+"do" + [K_SPACE] > U+1E842 U+0020
+"doh" + [K_SPACE] > U+1E843 U+0020
+"ti" + [K_SPACE] > U+1E844 U+0020
+"ta" + [K_SPACE] > U+1E845 U+0020
+"tu" + [K_SPACE] > U+1E846 U+0020
+"te" + [K_SPACE] > U+1E847 U+0020
+"teh" + [K_SPACE] > U+1E848 U+0020
+"to" + [K_SPACE] > U+1E849 U+0020
+"toh" + [K_SPACE] > U+1E84A U+0020
+"ji" + [K_SPACE] > U+1E84B U+0020
+"ja" + [K_SPACE] > U+1E84C U+0020
+"ju" + [K_SPACE] > U+1E84D U+0020
+"je" + [K_SPACE] > U+1E84E U+0020
+"jeh" + [K_SPACE] > U+1E84F U+0020
+"jo" + [K_SPACE] > U+1E850 U+0020
+"joh" + [K_SPACE] > U+1E851 U+0020
+"jooh" + [K_SPACE] > U+1E852 U+0020
+"yi" + [K_SPACE] > U+1E853 U+0020
+"ya" + [K_SPACE] > U+1E854 U+0020
+"yu" + [K_SPACE] > U+1E855 U+0020
+"ye" + [K_SPACE] > U+1E856 U+0020
+"yeh" + [K_SPACE] > U+1E857 U+0020
+"yo" + [K_SPACE] > U+1E858 U+0020
+"yoh" + [K_SPACE] > U+1E859 U+0020
+"fi" + [K_SPACE] > U+1E85A U+0020
+"fa" + [K_SPACE] > U+1E85B U+0020
+"fu" + [K_SPACE] > U+1E85C U+0020
+"fe" + [K_SPACE] > U+1E85D U+0020
+"feh" + [K_SPACE] > U+1E85E U+0020
+"fo" + [K_SPACE] > U+1E85F U+0020
+"foh" + [K_SPACE] > U+1E860 U+0020
+"fua" + [K_SPACE] > U+1E861 U+0020
+"fa~" + [K_SPACE] > U+1E862 U+0020
+"fa`" + [K_SPACE] > U+1E862 U+0020
+"ni~" + [K_SPACE] > U+1E863 U+0020
+"ni`" + [K_SPACE] > U+1E863 U+0020
+"na~" + [K_SPACE] > U+1E864 U+0020
+"na`" + [K_SPACE] > U+1E864 U+0020
+"nu~" + [K_SPACE] > U+1E865 U+0020
+"nu`" + [K_SPACE] > U+1E865 U+0020
+"neh~" + [K_SPACE] > U+1E866 U+0020
+"neh`" + [K_SPACE] > U+1E866 U+0020
+"noh~" + [K_SPACE] > U+1E867 U+0020
+"noh`" + [K_SPACE] > U+1E867 U+0020
+"hi" + [K_SPACE] > U+1E868 U+0020
+"ha" + [K_SPACE] > U+1E869 U+0020
+"hu" + [K_SPACE] > U+1E86A U+0020
+"he" + [K_SPACE] > U+1E86B U+0020
+"heh" + [K_SPACE] > U+1E86C U+0020
+"ho" + [K_SPACE] > U+1E86D U+0020
+"hoh" + [K_SPACE] > U+1E86E U+0020
+"hei" + [K_SPACE] > U+1E86F U+0020
+"hou" + [K_SPACE] > U+1E870 U+0020
+"hi~" + [K_SPACE] > U+1E871 U+0020
+"hi`" + [K_SPACE] > U+1E871 U+0020
+"ha~" + [K_SPACE] > U+1E872 U+0020
+"ha`" + [K_SPACE] > U+1E872 U+0020
+"hu~" + [K_SPACE] > U+1E873 U+0020
+"hu`" + [K_SPACE] > U+1E873 U+0020
+"heh~" + [K_SPACE] > U+1E874 U+0020
+"heh`" + [K_SPACE] > U+1E874 U+0020
+"hoh~" + [K_SPACE] > U+1E875 U+0020
+"hoh`" + [K_SPACE] > U+1E875 U+0020
+"hua~" + [K_SPACE] > U+1E876 U+0020
+"hua`" + [K_SPACE] > U+1E876 U+0020
+"nggi" + [K_SPACE] > U+1E877 U+0020
+"ngga" + [K_SPACE] > U+1E878 U+0020
+"nggu" + [K_SPACE] > U+1E879 U+0020
+"ngge" + [K_SPACE] > U+1E87A U+0020
+"nggeh" + [K_SPACE] > U+1E87B U+0020
+"nggo" + [K_SPACE] > U+1E87C U+0020
+"nggoh" + [K_SPACE] > U+1E87D U+0020
+"nggaa" + [K_SPACE] > U+1E87E U+0020
+"nggua" + [K_SPACE] > U+1E87F U+0020
+"nggeeh" + [K_SPACE] > U+1E880 U+0020
+"nggoo" + [K_SPACE] > U+1E881 U+0020
+"nggooh" + [K_SPACE] > U+1E882 U+0020
+"gi" + [K_SPACE] > U+1E883 U+0020
+"ga" + [K_SPACE] > U+1E884 U+0020
+"gu" + [K_SPACE] > U+1E885 U+0020
+"ge" + [K_SPACE] > U+1E886 U+0020
+"guehi" + [K_SPACE] > U+1E887 U+0020
+"gua~" + [K_SPACE] > U+1E888 U+0020
+"gua`" + [K_SPACE] > U+1E888 U+0020
+"ngeh~" + [K_SPACE] > U+1E889 U+0020
+"ngeh`" + [K_SPACE] > U+1E889 U+0020
+"ngoh~" + [K_SPACE] > U+1E88A U+0020
+"ngoh`" + [K_SPACE] > U+1E88A U+0020
+"ngua~" + [K_SPACE] > U+1E88B U+0020
+"ngua`" + [K_SPACE] > U+1E88B U+0020
+"pi" + [K_SPACE] > U+1E88C U+0020
+"pa" + [K_SPACE] > U+1E88D U+0020
+"pu" + [K_SPACE] > U+1E88E U+0020
+"pe" + [K_SPACE] > U+1E88F U+0020
+"peh" + [K_SPACE] > U+1E890 U+0020
+"po" + [K_SPACE] > U+1E891 U+0020
+"poh" + [K_SPACE] > U+1E892 U+0020
+"mbi" + [K_SPACE] > U+1E893 U+0020
+"mba" + [K_SPACE] > U+1E894 U+0020
+"mbu" + [K_SPACE] > U+1E895 U+0020
+"mbe" + [K_SPACE] > U+1E896 U+0020
+"mbe2" + [K_SPACE] > U+1E897 U+0020
+"mbeh" + [K_SPACE] > U+1E898 U+0020
+"mbo" + [K_SPACE] > U+1E899 U+0020
+"mboh" + [K_SPACE] > U+1E89A U+0020
+"mbuu" + [K_SPACE] > U+1E89B U+0020
+"mbeeh" + [K_SPACE] > U+1E89C U+0020
+"mboo" + [K_SPACE] > U+1E89D U+0020
+"mbooh" + [K_SPACE] > U+1E89E U+0020
+"kpi" + [K_SPACE] > U+1E89F U+0020
+"kpa" + [K_SPACE] > U+1E8A0 U+0020
+"kpu" + [K_SPACE] > U+1E8A1 U+0020
+"kpe" + [K_SPACE] > U+1E8A2 U+0020
+"kpeh" + [K_SPACE] > U+1E8A3 U+0020
+"kpo" + [K_SPACE] > U+1E8A4 U+0020
+"kpoh" + [K_SPACE] > U+1E8A5 U+0020
+"gbi" + [K_SPACE] > U+1E8A6 U+0020
+"gba" + [K_SPACE] > U+1E8A7 U+0020
+"gbu" + [K_SPACE] > U+1E8A8 U+0020
+"gbe" + [K_SPACE] > U+1E8A9 U+0020
+"gbeh" + [K_SPACE] > U+1E8AA U+0020
+"gbo" + [K_SPACE] > U+1E8AB U+0020
+"gboh" + [K_SPACE] > U+1E8AC U+0020
+"ra" + [K_SPACE] > U+1E8AD U+0020
+"ndi" + [K_SPACE] > U+1E8AE U+0020
+"nda" + [K_SPACE] > U+1E8AF U+0020
+"ndu" + [K_SPACE] > U+1E8B0 U+0020
+"nde" + [K_SPACE] > U+1E8B1 U+0020
+"ndeh" + [K_SPACE] > U+1E8B2 U+0020
+"ndo" + [K_SPACE] > U+1E8B3 U+0020
+"ndoh" + [K_SPACE] > U+1E8B4 U+0020
+"nja" + [K_SPACE] > U+1E8B5 U+0020
+"nju" + [K_SPACE] > U+1E8B6 U+0020
+"nje" + [K_SPACE] > U+1E8B7 U+0020
+"njo" + [K_SPACE] > U+1E8B8 U+0020
+"vi" + [K_SPACE] > U+1E8B9 U+0020
+"va" + [K_SPACE] > U+1E8BA U+0020
+"vu" + [K_SPACE] > U+1E8BB U+0020
+"ve" + [K_SPACE] > U+1E8BC U+0020
+"veh" + [K_SPACE] > U+1E8BD U+0020
+"vo" + [K_SPACE] > U+1E8BE U+0020
+"voh" + [K_SPACE] > U+1E8BF U+0020
+"nyi~" + [K_SPACE] > U+1E8C0 U+0020
+"nyi`" + [K_SPACE] > U+1E8C0 U+0020
+"nya~" + [K_SPACE] > U+1E8C1 U+0020
+"nya`" + [K_SPACE] > U+1E8C1 U+0020
+"nyu~" + [K_SPACE] > U+1E8C2 U+0020
+"nyu`" + [K_SPACE] > U+1E8C2 U+0020
+"nyeh~" + [K_SPACE] > U+1E8C3 U+0020
+"nyeh`" + [K_SPACE] > U+1E8C3 U+0020
+"nyoh~" + [K_SPACE] > U+1E8C4 U+0020
+"nyoh`" + [K_SPACE] > U+1E8C4 U+0020
+"1" + [K_SPACE] > U+1E8C7 U+0020
+"2" + [K_SPACE] > U+1E8C8 U+0020
+"3" + [K_SPACE] > U+1E8C9 U+0020
+"4" + [K_SPACE] > U+1E8CA U+0020
+"5" + [K_SPACE] > U+1E8CB U+0020
+"6" + [K_SPACE] > U+1E8CC U+0020
+"7" + [K_SPACE] > U+1E8CD U+0020
+"8" + [K_SPACE] > U+1E8CE U+0020
+"9" + [K_SPACE] > U+1E8CF U+0020
+"!" + [K_SPACE] > U+1E8D0 U+0020
+"@" + [K_SPACE] > U+1E8D1 U+0020
+"#" + [K_SPACE] > U+1E8D2 U+0020
+"$" + [K_SPACE] > U+1E8D3 U+0020
+"%" + [K_SPACE] > U+1E8D4 U+0020
+"^" + [K_SPACE] > U+1E8D5 U+0020
+"&" + [K_SPACE] > U+1E8D6 U+0020
