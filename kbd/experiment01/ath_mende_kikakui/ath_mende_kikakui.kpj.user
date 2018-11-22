@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
+  <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
+  <state>&lt;state&gt;&lt;tab&gt;1&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <FileStates>
+    <FileState>
+      <ID>id_327e6e4301e6f2ae99c1d968d9fc954e</ID>
+      <FullPath>H:\_athinkra\mende-kikakui\ath_mende_kikakui\source\ath_mende_kikakui.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Courier New|12|   |0</DebugFont>
+        <CodeFont>Courier New|12|   |0</CodeFont>
+        <CharFont>Courier New|12|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_f66427ec6f37cd5aa0caf5c2603a4f9e</ID>
+      <FullPath>H:\_athinkra\mende-kikakui\ath_mende_kikakui\source\ath_mende_kikakui.ico</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>ath_mende_kikakui.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>H:\_athinkra\mende-kikakui\ath_mende_kikakui\source\ath_mende_kikakui.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

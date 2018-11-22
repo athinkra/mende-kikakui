@@ -1,0 +1,263 @@
+﻿c -------------------------------------------------------------
+c Mende Kikakui
+c
+c
+c
+c -------------------------------------------------------------
+
+
+store(&version) "10.0"
+store(&name) "Kikakui"
+store(&keyboardversion) "0.1"
+store(&COPYRIGHT) '© 2018 Athinkra'
+store(&BITMAP) 'ath_mende_kikakui.ico'
+store(&targets) "any"
+store(&mnemoniclayout) "1"
+store(&VISUALKEYBOARD) 'ath_mende_kikakui.kvks'
+store(&kmw_rtl) "1"
+store(&capsalwaysoff) "1"
+
+begin Unicode > use(constraints)
+
+store(upper) "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+store(lower) "abcdefghijklmnopqrstuvwxyz"
+
+store(numeralChars) U+1E8C7 U+1E8C8 U+1E8C9 U+1E8CA U+1E8CB U+1E8CC U+1E8CD U+1E8CE U+1E8CF U+1E8D0 U+1E8D1 U+1E8D2 U+1E8D3 U+1E8D4 U+1E8D5 U+1E8D6
+store(numeralKeys) "123456789!@#$%^&"
+
+store(digitsWesternChars) "0123456789"
+store(digitsWesternKeys) [RALT "0"] [RALT "1"] [RALT "2"] [RALT "3"] [RALT "4"] [RALT "5"] [RALT "6"] [RALT "7"] [RALT "8"] [RALT "9"]
+store(digitsWesternKeysMacOS) [LALT "0"] [LALT "1"] [LALT "2"] [LALT "3"] [LALT "4"] [LALT "5"] [LALT "6"] [LALT "7"] [LALT "8"] [LALT "9"]
+
+
+group(constraints) using keys
+
++ any(upper) > index(lower,1)
++ "0" > nul
+
+c + any(otherKeys) > use(main)
+nomatch > use(main)
+
+
+group(main) using keys
+c explicit syllable terminator
++ "/" > dk(0) use(terminate)
+
+c syllable rules
+c eh = É›
+c eeh = É›É›
+c oh = É”
+c ooh = É”É”
+c ng = Å‹
+c ngg = Å‹g
+c ~ = nasaliÉ›ation, aÌƒ eÌƒ etc
+
++ "a" > U+1E823
+U+1E823 + "~" > U+1E82C
+"b" + "a" > U+1E81C
+"b" + "e" > U+1E81E
+U+1E81E + "h" > U+1E81F
+"b" + "i" > U+1E81B
+"b" + "o" > U+1E820
+U+1E820 + "h" > U+1E821
+"b" + "u" > U+1E81D
+"d" + "a" > U+1E83F
+"d" + "e" > U+1E841
+"d" + "i" > U+1E83E
+"d" + "o" > U+1E842
+U+1E842 + "h" > U+1E843
+"d" + "u" > U+1E840
++ "e" > U+1E825
+U+1E825 + "h" > U+1E826
+U+1E826 + "~" > U+1E82D
+U+1E826 + "i" > U+1E829
+"f" + "a" > U+1E85B
+U+1E85B + "~" > U+1E862
+"f" + "e" > U+1E85D
+U+1E85D + "h" > U+1E85E
+"f" + "i" > U+1E85A
+"f" + "o" > U+1E85F
+U+1E85F + "h" > U+1E860
+"f" + "u" > U+1E85C
+U+1E85C + "a" > U+1E861
+"g" + "a" > U+1E884
+"gb" + "a" > U+1E8A7
+"gb" + "e" > U+1E8A9
+U+1E8A9 + "h" > U+1E8AA
+"gb" + "i" > U+1E8A6
+"gb" + "o" > U+1E8AB
+U+1E8AB + "h" > U+1E8AC
+"gb" + "u" > U+1E8A8
+"g" + "e" > U+1E886
+"g" + "i" > U+1E883
+"g" + "u" > U+1E885
+U+1E885 "a" + "~" > U+1E888
+U+1E885 "eh" + "i" > U+1E887
+"h" + "a" > U+1E869
+U+1E869 + "~" > U+1E872
+"h" + "e" > U+1E86B
+U+1E86B + "h" > U+1E86C
+U+1E86C + "~" > U+1E874
+U+1E86B + "i" > U+1E86F
+"h" + "i" > U+1E868
+U+1E868 + "~" > U+1E871
+"h" + "o" > U+1E86D
+U+1E86D + "h" > U+1E86E
+U+1E86E + "~" > U+1E875
+U+1E86D + "u" > U+1E870
+"h" + "u" > U+1E86A
+U+1E86A + "~" > U+1E873
+U+1E86A "a" + "~" > U+1E876
++ "i" > U+1E822
+U+1E822 + "~" > U+1E82A
+U+1E82A + "2" > U+1E82B
+"j" + "a" > U+1E84C
+"j" + "e" > U+1E84E
+U+1E84E + "h" > U+1E84F
+"j" + "i" > U+1E84B
+"j" + "o" > U+1E850
+U+1E850 + "h" > U+1E851
+U+1E850 "o" + "h" > U+1E852
+"j" + "u" > U+1E84D
+"k" + "a" > U+1E801
+"k" + "e" > U+1E803
+U+1E803 + "h" > U+1E804
+"k" + "i" > U+1E800
+"k" + "o" > U+1E805
+U+1E805 + "h" > U+1E806
+"kp" + "a" > U+1E8A0
+"kp" + "e" > U+1E8A2
+U+1E8A2 + "h" > U+1E8A3
+"kp" + "i" > U+1E89F
+"kp" + "o" > U+1E8A4
+U+1E8A4 + "h" > U+1E8A5
+"kp" + "u" > U+1E8A1
+"k" + "u" > U+1E802
+U+1E802 + "a" > U+1E807
+"l" + "a" > U+1E837
+"l" + "e" > U+1E839
+U+1E839 "e" + "h" > U+1E83D
+U+1E839 + "h" > U+1E83A
+"l" + "i" > U+1E836
+"l" + "o" > U+1E83B
+U+1E83B + "h" > U+1E83C
+"l" + "u" > U+1E838
+"ma" + "~" > U+1E815
+"mb" + "a" > U+1E894
+"mb" + "e" > U+1E896
+U+1E896 + "2" > U+1E897
+U+1E896 "e" + "h" > U+1E89C
+U+1E896 + "h" > U+1E898
+"mb" + "i" > U+1E893
+"mb" + "o" > U+1E899
+U+1E899 + "h" > U+1E89A
+U+1E899 + "o" > U+1E89D
+U+1E89D + "h" > U+1E89E
+"mb" + "u" > U+1E895
+U+1E895 + "u" > U+1E89B
+"meh" + "~" > U+1E817
+"mi" + "~" > U+1E814
+"moh" + "~" > U+1E818
+"mu" + "~" > U+1E816
+"mua" + "~" > U+1E819
+"mueh" + "~" > U+1E81A
+"na" + "~" > U+1E864
+"nd" + "a" > U+1E8AF
+"nd" + "e" > U+1E8B1
+U+1E8B1 + "h" > U+1E8B2
+"nd" + "i" > U+1E8AE
+"nd" + "o" > U+1E8B3
+U+1E8B3 + "h" > U+1E8B4
+"nd" + "u" > U+1E8B0
+"neh" + "~" > U+1E866
+"ngeh" + "~" > U+1E889
+"ngg" + "a" > U+1E878
+U+1E878 + "a" > U+1E87E
+"ngg" + "e" > U+1E87A
+U+1E87A "e" + "h" > U+1E880
+U+1E87A + "h" > U+1E87B
+"ngg" + "i" > U+1E877
+"ngg" + "o" > U+1E87C
+U+1E87C + "h" > U+1E87D
+U+1E87C + "o" > U+1E881
+U+1E881 + "h" > U+1E882
+"ngg" + "u" > U+1E879
+U+1E879 + "a" > U+1E87F
+"ngoh" + "~" > U+1E88A
+"ngua" + "~" > U+1E88B
+"ni" + "~" > U+1E863
+"nj" + "a" > U+1E8B5
+"nj" + "e" > U+1E8B7
+"nj" + "o" > U+1E8B8
+"nj" + "u" > U+1E8B6
+"noh" + "~" > U+1E867
+"nu" + "~" > U+1E865
+"nya" + "~" > U+1E8C1
+"nyeh" + "~" > U+1E8C3
+"nyi" + "~" > U+1E8C0
+"nyoh" + "~" > U+1E8C4
+"nyu" + "~" > U+1E8C2
++ "o" > U+1E827
+U+1E827 + "h" > U+1E828
+"p" + "a" > U+1E88D
+"p" + "e" > U+1E88F
+U+1E88F + "h" > U+1E890
+"p" + "i" > U+1E88C
+"p" + "o" > U+1E891
+U+1E891 + "h" > U+1E892
+"p" + "u" > U+1E88E
+"r" + "a" > U+1E8AD
+"s" + "a" > U+1E82F
+"s" + "e" > U+1E831
+U+1E831 + "h" > U+1E832
+"s" + "i" > U+1E82E
+U+1E82E + "a" > U+1E835
+"s" + "o" > U+1E833
+U+1E833 + "h" > U+1E834
+"s" + "u" > U+1E830
+"t" + "a" > U+1E845
+"t" + "e" > U+1E847
+U+1E847 + "h" > U+1E848
+"t" + "i" > U+1E844
+"t" + "o" > U+1E849
+U+1E849 + "h" > U+1E84A
+"t" + "u" > U+1E846
++ "u" > U+1E824
+"v" + "a" > U+1E8BA
+"v" + "e" > U+1E8BC
+U+1E8BC + "h" > U+1E8BD
+"v" + "i" > U+1E8B9
+"v" + "o" > U+1E8BE
+"vo" + "h" > U+1E8BF
+"v" + "u" > U+1E8BB
+"w" + "a" > U+1E809
+"w" + "e" > U+1E80B
+U+1E80B + "h" > U+1E80C
+U+1E80C + "i" > U+1E810
+"w" + "i" > U+1E808
+"w" + "o" > U+1E80D
+U+1E80D + "h" > U+1E80E
+"w" + "u" > U+1E80A
+U+1E80A + "i" > U+1E80F
+"wv" + "a" > U+1E812
+"wve" + "h" > U+1E813
+"wv" + "i" > U+1E811
+"y" + "a" > U+1E854
+"y" + "e" > U+1E856
+U+1E856 + "h" > U+1E857
+"y" + "i" > U+1E853
+"y" + "o" > U+1E858
+U+1E858 + "h" > U+1E859
+"y" + "u" > U+1E855
+
+c digits
+
++ any(numeralKeys) > index(numeralChars,1)
+c if(platform != "touch") + any(digitsWesternKeys) > index(digitsWesternChars,2)
+c &platform(macos) + any(digitsWesternKeysMacOS) > index(digitsWesternChars,2)
+
+c punctuation
+
+
+group(terminate)
+                            

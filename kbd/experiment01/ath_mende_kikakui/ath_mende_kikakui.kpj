@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath>$PROJECTPATH\build</BuildPath>
+    <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_327e6e4301e6f2ae99c1d968d9fc954e</ID>
+      <Filename>ath_mende_kikakui.kmn</Filename>
+      <Filepath>source\ath_mende_kikakui.kmn</Filepath>
+      <FileVersion>0.1</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>Kikakui</Name>
+        <Copyright>© 2018 Athinkra</Copyright>
+      </Details>
+    </File>
+    <File>
+      <ID>id_f66427ec6f37cd5aa0caf5c2603a4f9e</ID>
+      <Filename>ath_mende_kikakui.ico</Filename>
+      <Filepath>source\ath_mende_kikakui.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_327e6e4301e6f2ae99c1d968d9fc954e</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>
